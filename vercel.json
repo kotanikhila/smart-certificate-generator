@@ -14,6 +14,5 @@
       "src": "/(.*)",
       "dest": "backend/app/main.py"
     }
-  ],
-  "installCommand": "pip install -r backend/requirements.txt --break-system-packages"
+  ]
 }
