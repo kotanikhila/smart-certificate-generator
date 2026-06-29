@@ -1,0 +1,5 @@
+﻿# Add this to app/main.py imports
+from .routers import search
+
+# Add this after other routers
+app.include_router(search.router, prefix="/api/search", tags=["Search"])
