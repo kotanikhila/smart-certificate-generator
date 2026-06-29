@@ -1,14 +1,10 @@
 fastapi
-uvicorn[standard]
+uvicorn
 python-multipart
 sqlalchemy
-python-jose[cryptography]
-passlib[bcrypt]
+python-jose
+passlib
 python-dotenv
 Pillow
 qrcode
 reportlab
-PyPDF2
-email-validator
-pandas
-openpyxl
