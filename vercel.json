@@ -1,4 +1,4 @@
-﻿{
+{
   "builds": [
     {
       "src": "backend/app/main.py",
@@ -15,12 +15,5 @@
       "dest": "backend/app/main.py"
     }
   ],
-  "env": {
-    "DATABASE_URL": "sqlite:///./certificates.db",
-    "SECRET_KEY": "your-super-secret-key-change-in-production",
-    "ALGORITHM": "HS256",
-    "ACCESS_TOKEN_EXPIRE_MINUTES": "30",
-    "APP_ENV": "production",
-    "DEBUG": "false"
-  }
+  "installCommand": "pip install -r backend/requirements.txt --break-system-packages"
 }
